@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Señalar | Frutas</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
+        <script type="text/javascript"  src="../../js/materialize.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <script>
+       $(document).ready(function() {
+         $(".button-collapse").sideNav();
+     });
+          
+    </script>
+        <style>
+            .card{
+                background: url("../../imagenes/nubes.png");
+            }
+        </style>
+
+    </head>
+    <body>
+
+
+        <nav class="teal lighten-2">
+            <div class="nav-wrapper">
+                <a href="../../index.html" style="margin-left: 10px" class="brand-logo"><img alt="LOGO" src="../../imagenes/logo.png" width="150"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="../../index.html"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li><a href="../../juegos.html"><i class="material-icons left">apps</i>Juegos</a></li>
+                    <li><a href="../../PHP/Registro.php"><i class="material-icons left">people</i>Registro</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="../../index.html"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li><a href="../../juegos.html"><i class="material-icons left">apps</i>Juegos</a></li>
+                    <li><a href="../../PHP/Registro.php"><i class="material-icons left">people</i>Registro</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col s12 m13">
+                <div class="card center-align">
+                    <audio id="manzana">
+                        <source src="../../Sonidos/manzana.mp3">  
+                    </audio>
+                    <audio id="calabaza">
+                        <source src="../../Sonidos/calabaza.mp3">   
+                    </audio>
+                    <audio id="naranja">
+                        <source src="../../Sonidos/naranja.mp3">   
+                    </audio>
+                    <audio id="pera">
+                        <source src="../../Sonidos/pera.mp3">   
+                    </audio>
+                    <audio id="piña">
+                        <source src="../../Sonidos/piña.mp3">   
+                    </audio>
+                    <audio id="sandia">
+                        <source src="../../Sonidos/sandia.mp3">   
+                    </audio>
+                    <audio id="uva">
+                        <source src="../../Sonidos/uva.mp3">   
+                    </audio>
+                    <audio id="zanahoria">
+                        <source src="../../Sonidos/zanahoria.mp3">   
+                    </audio>
+
+                    <img src="../../imagenes/manzana1.png" height="260" width="270" onmouseover="manzana.play()" />
+                    <img src="../../imagenes/calabaza.png" height="260" width="270" onmouseover="calabaza.play()" />
+                    <img src="../../imagenes/naranja.png" height="260" width="270" onmouseover="naranja.play()" />
+                    <img src="../../imagenes/pera.png" height="260" width="270" onmouseover="pera.play()" />
+                    <img src="../../imagenes/piña.png" height="260" width="270" onmouseover="piña.play()" />
+                    <img src="../../imagenes/sandia.png" height="260" width="270" onmouseover="sandia.play()" />
+                    <img src="../../imagenes/uva.jpg" height="260" width="270" onmouseover="uva.play()" />
+                    <img src="../../imagenes/zanahoria.png" height="260" width="270" onmouseover="zanahoria.play()" /><br>
+
+                    <a href="../señalar.html"><button class=" right teal lighten-2 waves-effect waves-light btn"><i class="material-icons left">arrow_back</i>Volver</button></a>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contacto.</h5>
+                        <p class="grey-text text-lighten-4">info@acme.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container">
+                    Acme © 2017 - Todos los derechos reservados.<br>
+
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Acme</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script type="text/javascript"  src="js/materialize.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+   <script>
+       $(document).ready(function() {
+         $(".button-collapse").sideNav();
+     });
+          
+    </script>
+    </head>
+    
+    <body>
+
+        <nav class="teal lighten-2">
+            <div class="nav-wrapper">
+                <a href="index.html" style="margin-left: 10px" class="brand-logo"><img alt="LOGO" src="imagenes/logo.png" width="150"></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li><a href="juegos.html"><i class="material-icons left">apps</i>Juegos</a></li>
+                    <li><a href="PHP/Registro.php"><i class="material-icons left">people</i>Registro</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="index.html"><i class="material-icons left">home</i>Inicio</a></li>
+                    <li><a href="juegos.html"><i class="material-icons left">apps</i>Juegos</a></li>
+                    <li><a href="PHP/Registro.php"><i class="material-icons left">people</i>Registro</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col s12 m7">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="imagenes/mouse.jpg">
+                        <span style="color: black" class="card-title">Importancia del uso del Mouse</span>
+                    </div>
+                    <div class="card-content">
+                        <p align="justify" >Actualmente el uso de este aparato tecnologico es muy importante no solo para que las 
+                            personas puedan realizar sus trabajos de manera mas facil, sino porque ayuda no solo
+                            a los niños sino tambien a los adultos mayores a desarrollar destrezas motrices, ya que 
+                            este ultimo con el pasar del tiempo va perdiendo la motricidad y la capacidad de realizar 
+                            movimientos que le permitan llevar a cabo ciertas actividades.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="page-footer grey darken-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Contacto.</h5>
+                        <p class="grey-text text-lighten-4">info@acme.com</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container">
+                    Acme © 2017 - Todos los derechos reservados.<br>
+
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+
